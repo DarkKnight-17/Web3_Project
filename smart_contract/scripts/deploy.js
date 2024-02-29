@@ -10,10 +10,10 @@ const main = async () => {
 const runMain = async () => {
   try {
     await main();
-    procces.exit(0);
+    process.exit(0);
   } catch (error) {
     console.error(error);
-    procces.exit(1);
+    process.exit(1);
   }
 }
 

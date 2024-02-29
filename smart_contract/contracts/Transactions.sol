@@ -7,7 +7,7 @@ contract Transactions {
 
     event Transfer(address from, address receiver, uint amount, string message, uint256 timestamp, string keyword);
 
-    struct TrnansferStruct {
+    struct TransferStruct {
         address sender;
         address receiver;
         uint amount;
@@ -30,7 +30,7 @@ contract Transactions {
         
     }
 
-    function gettransactionCount() public view returns (uint256) {
+    function getTransactionCount() public view returns (uint256) {
         return transactionCount;
     }
 }
